@@ -1,15 +1,16 @@
-*{
-    box-sizing: border-box;
-}
+/* css for footer peace sandy's part*/
 
-body{
+footer{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0;
     color: rgba(10, 10, 10, 13);
     background-color: rgb(20, 20, 20);
 }
+
+
 
 .links{
     display: flex;
@@ -19,7 +20,7 @@ body{
     width: 1500px;
     column-gap: 5em;
     justify-content: center;
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(51, 50, 50);
 }
     
 .second{
@@ -31,7 +32,6 @@ body{
 }
 
 .hr{
-    padding-right: 20px;
     color: white;
 }
 
@@ -48,6 +48,11 @@ a:link{
 
 a{
     color: #fff;
+}
+
+.img{
+    width: 30%;
+    height: 20%;
 }
 
 ul{
@@ -67,7 +72,22 @@ h5{
 }
 
 .english{
-    margin-left: 1200px;
+    margin-left: 1180px;
     display: flex;
     color: #fff;
 }
+
+h4{
+    color: #fff;
+    font-size: 15px;
+    padding-left: 10%;
+}
+
+h6{
+    color: #fff;
+    font-size: 20px;
+    padding-left: 80%;
+}
+
+/*foooter peace sandy's part*/
+
